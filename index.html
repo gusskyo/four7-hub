@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CPX HUB</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: #000;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      color: #ff0077;
+      text-shadow: 0 0 20px #ff0077;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      border: 1px solid #ff0077;
+      padding: 30px;
+      margin: 20px;
+      display: inline-block;
+      cursor: pointer;
+      width: 250px;
+      background: #050505;
+      box-shadow: 0 0 15px #ff0077;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px #ff0077;
+    }
+
+    .title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #ff0077;
+    }
+
+    .desc {
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>CPX HUB</h1>
+
+  <!-- SISTEMA -->
+  <div class="card" onclick="window.location.href='https://gusskyo.github.io/cpxsystem/'">
+    <div class="title">CPX SYSTEM</div>
+    <div class="desc">Controle de metas semanais</div>
+  </div>
+
+  <!-- CALCULADORA -->
+  <div class="card" onclick="window.location.href='https://gusskyo.github.io/cpx-site/'">
+    <div class="title">CPX CALCULADORA</div>
+    <div class="desc">Cálculo automático da lavagem</div>
+  </div>
+
+</div>
+
+</body>
+</html>
